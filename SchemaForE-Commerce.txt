@@ -1,0 +1,49 @@
+ User Table 1
+
+email| Name | password | otp | isVerified | role 
+
+
+
+User_details 2
+
+user_id(email) | Address_id | phone | street 1 | street 2 | city | state | pincode
+
+
+
+Order_details 3
+
+buyer_id (email) | order_id | Total Price | Order_date | Order_status | quantity | Delievery_date | delievery_address_id(address_id) | payment_type
+
+
+
+Order_product 4
+
+product_id (prod_id) | order_id (order_id)
+
+
+
+Cart 5
+
+order_id (order_id) | buyer_id(email)
+
+
+
+cart_item 6
+
+product_id(prod_id) | buyer_id (email)
+
+
+
+Seller 7
+
+seller_id(email) | company_name 
+
+
+
+Products 8
+
+seller_id(email) | prod_id | name | price | description | quantity | image(url) | rating | 
+
+
+
+
